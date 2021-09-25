@@ -1,0 +1,4 @@
+El alumno ABRIL tiene las siguientes notas: 4.41 6.64 3.77 3.17 y la media es de: 4.5
+El alumno ABRIL tiene las siguientes notas: 8.17 9.97 9.01 1.45 y la media es de: 7.15
+El alumno ACOIDAN tiene las siguientes notas: 8.9 9.9 3.79 9.01 y la media es de: 7.9
+El alumno ADAM tiene las siguientes notas: 1.42 8.78 6.4 8.54 y la media es de: 6.29

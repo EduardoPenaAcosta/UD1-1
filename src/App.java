@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
@@ -15,17 +14,16 @@ public class App {
 
 
         /** Creamos la ArrayList donde almacenaremos los alumnos del archivo .csv**/
-
         ArrayList<String> Alumnos = new ArrayList<String>();
 
+        /** Creo un array bidimensional para almacenar las notas**/
+        double[] notas = new double[5];
 
-        /** Introducimos la ruta **/
-
+        /** Introducimos la ruta de donde sacaremos los nombres de los alumnos. **/
         String ruta = "/Users/eduardo/Desktop/2 DAM/PMD/Prácticas/Practica UD 1-1/src/alumnos.csv";
 
-        /**Utilizaremos esta String como almacenamiento temporal del la línea del archivo.**/
+        /** Utilizaremos esta línea donde almacenaremos temporalmente los nombres de los alumnos**/
         String linea = "";
-
 
         /** Ahora realizaremos un trycatch para abrir un buffer,
          * con este lo que hará será leer y almacenar el archivo,
@@ -41,7 +39,6 @@ public class App {
         }
 
         /** Ahora procederemos a crear el archivo donde meteremos los datos. **/
-
         try{
             File newTXT = new File("./notas.txt");
             if(newTXT.createNewFile()){
@@ -60,34 +57,23 @@ public class App {
         /** Creo esta variable donde almacenaré todos los alumnos con sus respectivas notas.**/
         String alFichero = "";
 
-        for(int i = 0; i < 4 ; i++){
+        for(int i = 0; i < 10 ; i++){
 
-            double numRandom = Math.random() * (Alumnos.size() + 0) + 1;
-            String alumRandom = Alumnos.get((int)numRandom);
-
-            /**Redondeamos las notas a dos decimales.**/
-
-            DecimalFormat df = new DecimalFormat("#.00");
+            String alumRandom = Alumnos.get((int) (Math.random() * (Alumnos.size() + 0) + 1));
 
             /** Elegimos las 4 notas al azar y realizamos la media de las notas.**/
+            for(int h = 0; h < 4; h++){
+                notas[h] = Math.random() * (10 - 1) + 1;
+                notas[h] = Math.round(notas[h] * 100d)/100d;
 
-            double nota1 = Math.random() * (10 - 1) + 1;
-            double nota2 = Math.random() * (10 - 1) + 1;
-            double nota3 = Math.random() * (10 - 1) + 1;
-            double nota4 = Math.random() * (10 - 1) + 1;
+            }
 
-            double media = (nota1 + nota2 + nota3 + nota4)/4;
+            /** Calculamos la media de la nota y redondeamos la nota resultante. **/
+            notas[4] = Math.round( ((notas[0] + notas[1] + notas[2] + notas[3])/4) * 100d)/100d;
 
-            /**Redondeamos los números**/
-            nota1 = ((double)(Math.round(nota1 * 100d)/100d));
-            nota2 = ((double)(Math.round(nota2 * 100d)/100d));
-            nota3 = ((double)(Math.round(nota3 * 100d)/100d));
-            nota4 = ((double)(Math.round(nota4 * 100d)/100d));
-            media = ((double)(Math.round(media * 100d)/100d));
-            
-            /** Imprimimos en pantalla el resultado **/
-            String frase = "El alumno " + alumRandom + " tiene las siguientes notas: " +  nota1 + " " +
-                    nota2 + " " + nota3 + " " + nota4 + " y la media es de: " + media + "\n";
+            /** Imprimimos en pantalla el resultado e imprimo en pantalla para verificar.**/
+            String frase = "El alumno " + alumRandom + " tiene las siguientes notas: " +  notas[0] + " " +
+                    notas[1] + " " + notas[2] + " " + notas[3] + " y la media es de: " + notas[4] + "\n";
 
             System.out.println(frase);
 
@@ -102,7 +88,6 @@ public class App {
                 pw = new PrintWriter(fichero);
 
                     /** Aquí escribiremos la frase en el txt.**/
-
                     fichero.write(alFichero);
 
             /** En caso de errores, pues saltará el error, en case de que
@@ -117,13 +102,7 @@ public class App {
                 }catch(Exception e2){
                     e2.printStackTrace();
                 }
-
             }
-
         }
-
     }
-
-
 }
-

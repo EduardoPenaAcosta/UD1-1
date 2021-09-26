@@ -1,4 +1,10 @@
-El alumno ABRIL tiene las siguientes notas: 4.41 6.64 3.77 3.17 y la media es de: 4.5
-El alumno ABRIL tiene las siguientes notas: 8.17 9.97 9.01 1.45 y la media es de: 7.15
-El alumno ACOIDAN tiene las siguientes notas: 8.9 9.9 3.79 9.01 y la media es de: 7.9
-El alumno ADAM tiene las siguientes notas: 1.42 8.78 6.4 8.54 y la media es de: 6.29
+El alumno AMAYA tiene las siguientes notas: 7.06 2.12 5.74 9.59 y la media es de: 6.13
+El alumno ABIEL tiene las siguientes notas: 7.28 6.74 6.2 1.76 y la media es de: 5.5
+El alumno BLAS tiene las siguientes notas: 1.84 7.86 5.95 5.23 y la media es de: 5.22
+El alumno AMAYA tiene las siguientes notas: 1.8 7.62 1.52 1.12 y la media es de: 3.01
+El alumno ANCOR tiene las siguientes notas: 5.32 3.32 6.26 8.06 y la media es de: 5.74
+El alumno ADRIANA tiene las siguientes notas: 1.47 5.91 6.03 5.64 y la media es de: 4.76
+El alumno AMAYA tiene las siguientes notas: 4.89 1.59 5.26 1.13 y la media es de: 3.22
+El alumno ADAL GABRIEL tiene las siguientes notas: 5.24 1.42 3.93 6.09 y la media es de: 4.17
+El alumno AMINE tiene las siguientes notas: 9.32 8.19 8.11 6.11 y la media es de: 7.93
+El alumno BRUNO ALBERTO tiene las siguientes notas: 2.8 5.9 7.17 3.25 y la media es de: 4.78

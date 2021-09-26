@@ -1,0 +1,10 @@
+El alumno ALESSIA tiene las siguientes notas: 5.57 9.55 2.43 1.13 y la media es de: 4.67
+El alumno CLAUDIA tiene las siguientes notas: 5.18 9.93 3.47 1.81 y la media es de: 5.1
+El alumno ADEXE tiene las siguientes notas: 9.51 3.88 4.26 5.89 y la media es de: 5.89
+El alumno ADONAI tiene las siguientes notas: 5.09 2.25 4.47 3.6 y la media es de: 3.85
+El alumno AILEEN tiene las siguientes notas: 3.3 7.68 6.24 9.14 y la media es de: 6.59
+El alumno ALEJANDRA tiene las siguientes notas: 4.65 7.97 8.26 6.11 y la media es de: 6.75
+El alumno ANGELA tiene las siguientes notas: 8.82 2.16 1.88 1.15 y la media es de: 3.5
+El alumno ADRIANA tiene las siguientes notas: 5.43 8.7 7.75 1.18 y la media es de: 5.77
+El alumno ARACELI tiene las siguientes notas: 6.24 2.58 7.14 6.46 y la media es de: 5.61
+El alumno ADAL GABRIEL tiene las siguientes notas: 7.72 6.9 5.74 3.31 y la media es de: 5.92

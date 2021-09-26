@@ -1,10 +1,10 @@
-El alumno ALESSIA tiene las siguientes notas: 5.57 9.55 2.43 1.13 y la media es de: 4.67
-El alumno CLAUDIA tiene las siguientes notas: 5.18 9.93 3.47 1.81 y la media es de: 5.1
-El alumno ADEXE tiene las siguientes notas: 9.51 3.88 4.26 5.89 y la media es de: 5.89
-El alumno ADONAI tiene las siguientes notas: 5.09 2.25 4.47 3.6 y la media es de: 3.85
-El alumno AILEEN tiene las siguientes notas: 3.3 7.68 6.24 9.14 y la media es de: 6.59
-El alumno ALEJANDRA tiene las siguientes notas: 4.65 7.97 8.26 6.11 y la media es de: 6.75
-El alumno ANGELA tiene las siguientes notas: 8.82 2.16 1.88 1.15 y la media es de: 3.5
-El alumno ADRIANA tiene las siguientes notas: 5.43 8.7 7.75 1.18 y la media es de: 5.77
-El alumno ARACELI tiene las siguientes notas: 6.24 2.58 7.14 6.46 y la media es de: 5.61
-El alumno ADAL GABRIEL tiene las siguientes notas: 7.72 6.9 5.74 3.31 y la media es de: 5.92
+El alumno AMAYA tiene las siguientes notas: 7.06 2.12 5.74 9.59 y la media es de: 6.13
+El alumno ABIEL tiene las siguientes notas: 7.28 6.74 6.2 1.76 y la media es de: 5.5
+El alumno BLAS tiene las siguientes notas: 1.84 7.86 5.95 5.23 y la media es de: 5.22
+El alumno AMAYA tiene las siguientes notas: 1.8 7.62 1.52 1.12 y la media es de: 3.01
+El alumno ANCOR tiene las siguientes notas: 5.32 3.32 6.26 8.06 y la media es de: 5.74
+El alumno ADRIANA tiene las siguientes notas: 1.47 5.91 6.03 5.64 y la media es de: 4.76
+El alumno AMAYA tiene las siguientes notas: 4.89 1.59 5.26 1.13 y la media es de: 3.22
+El alumno ADAL GABRIEL tiene las siguientes notas: 5.24 1.42 3.93 6.09 y la media es de: 4.17
+El alumno AMINE tiene las siguientes notas: 9.32 8.19 8.11 6.11 y la media es de: 7.93
+El alumno BRUNO ALBERTO tiene las siguientes notas: 2.8 5.9 7.17 3.25 y la media es de: 4.78

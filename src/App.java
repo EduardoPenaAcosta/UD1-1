@@ -25,7 +25,7 @@ public class App {
         /** Utilizaremos esta línea donde almacenaremos temporalmente los nombres de los alumnos**/
         String linea = "";
 
-        /** Ahora realizaremos un trycatch para abrir un buffer,
+        /** Ahora realizaremos un TryCatch para abrir un buffer,
          * con este lo que hará será leer y almacenar el archivo,
          * con el FileReader buscará el archivo.
          * Luego para almacenarlo, se ha realizado un bucle que mediante el String
@@ -71,7 +71,7 @@ public class App {
             /** Calculamos la media de la nota y redondeamos la nota resultante. **/
             notas[4] = Math.round( ((notas[0] + notas[1] + notas[2] + notas[3])/4) * 100d)/100d;
 
-            /** Imprimimos en pantalla el resultado e imprimo en pantalla para verificar.**/
+            /** Almacenamos el resultado de las notas del alumno e imprimo en pantalla para verificar.**/
             String frase = "El alumno " + alumRandom + " tiene las siguientes notas: " +  notas[0] + " " +
                     notas[1] + " " + notas[2] + " " + notas[3] + " y la media es de: " + notas[4] + "\n";
 

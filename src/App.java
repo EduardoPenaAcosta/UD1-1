@@ -27,7 +27,7 @@ public class App {
 
         // Ahora realizaremos un TryCatch para abrir un buffer,
         // con este lo que hará será leer y almacenar el archivo,
-        // con el FileReader buscará el archivo.
+        // con el FileReader leerá el archivo.
         // Luego para almacenarlo, se ha realizado un bucle que mediante el String
         // de almacenamiento temporal que hemos creado y lo agregamos al ArrayList
         try (BufferedReader buffer = new BufferedReader(new FileReader(ruta))) {
@@ -54,7 +54,7 @@ public class App {
         FileWriter fichero = null;
         PrintWriter pw = null;
 
-        calculoNotas(notas);
+
         crearArchivo();
 
 
@@ -64,6 +64,15 @@ public class App {
         for(int i = 0; i < 10 ; i++){
 
             String alumRandom = Alumnos.get((int) (Math.random() * (Alumnos.size()) + 1));
+
+            for(int h = 0; h < 4; h++){
+                notas[h] = Math.random() * (10 - 1) + 1;
+                notas[h] = Math.round(notas[h] * 100d)/100d;
+
+            }
+
+            //Calculamos la media de la nota y redondeamos la nota resultante.
+            notas[4] = Math.round( ((notas[0] + notas[1] + notas[2] + notas[3])/4) * 100d)/100d;
 
 
 
@@ -118,19 +127,5 @@ public class App {
         }
 
     }
-
-    public static void calculoNotas(double[] notas){
-        // Elegimos las 4 notas al azar y realizamos la media de las notas.**
-        for(int h = 0; h < 4; h++){
-            notas[h] = Math.random() * (10 - 1) + 1;
-            notas[h] = Math.round(notas[h] * 100d)/100d;
-
-        }
-
-        //Calculamos la media de la nota y redondeamos la nota resultante.
-        notas[4] = Math.round( ((notas[0] + notas[1] + notas[2] + notas[3])/4) * 100d)/100d;
-    }
-
-
 
 }

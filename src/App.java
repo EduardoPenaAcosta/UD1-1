@@ -45,7 +45,7 @@ public class App {
                 System.out.println("El txt ha sido creado correctamente, ahora se procederá a añadir las notas.");
 
             }else{
-                System.out.println("El archivo ya existe, se añadirá al existente...");
+                System.out.println("El archivo ya existe, se modificará al existente...");
             }
         }catch(IOException e){
             e.printStackTrace();
@@ -55,7 +55,7 @@ public class App {
         PrintWriter pw = null;
 
 
-        crearArchivo();
+
 
 
         // Creo esta variable donde almacenaré todos los alumnos con sus respectivas notas.
@@ -104,28 +104,14 @@ public class App {
                     if (null != fichero) {
                         fichero.close();
                     }
+                    if(pw != null){
+                        pw.close();
+                    }
                 }catch(Exception e2){
                     e2.printStackTrace();
                 }
             }
         }
-    }
-
-    public static void crearArchivo(){
-
-        // Ahora procederemos a crear el archivo donde meteremos los datos.
-        try{
-            File newTXT = new File("./notas.txt");
-            if(newTXT.createNewFile()){
-                System.out.println("El txt ha sido creado correctamente, ahora se procederá a añadir las notas.");
-
-            }else{
-                System.out.println("El archivo ya existe, se modificará al existente...");
-            }
-        }catch(IOException e){
-            e.printStackTrace();
-        }
-
     }
 
 }

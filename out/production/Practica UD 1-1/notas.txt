@@ -1,10 +1,10 @@
-El alumno ALLEN tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno ALESSANDRO tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno ANA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno AINARA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno BRANDON tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno AINARA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno CARLOTA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno ANA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno ALEJANDRA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
-El alumno ALICIA tiene las siguientes notas: 7.04 5.07 8.44 5.42 y la media es de: 6.49
+El alumno ANDREA tiene las siguientes notas: 5.13 1.8 8.0 4.31 y la media es de: 4.81
+El alumno CATHAISA tiene las siguientes notas: 3.24 4.48 8.72 7.72 y la media es de: 6.04
+El alumno BRUNO ALBERTO tiene las siguientes notas: 9.05 3.6 5.73 8.64 y la media es de: 6.76
+El alumno BORJA tiene las siguientes notas: 5.84 2.37 6.98 4.41 y la media es de: 4.9
+El alumno ALAN tiene las siguientes notas: 6.41 9.59 1.79 4.94 y la media es de: 5.68
+El alumno ALESSIA tiene las siguientes notas: 9.27 6.23 2.49 8.56 y la media es de: 6.64
+El alumno AINHOA tiene las siguientes notas: 8.41 3.86 1.97 9.28 y la media es de: 5.88
+El alumno BLAS tiene las siguientes notas: 4.69 1.36 8.01 2.65 y la media es de: 4.18
+El alumno ANA tiene las siguientes notas: 1.85 9.25 3.15 3.57 y la media es de: 4.46
+El alumno CESAR tiene las siguientes notas: 8.54 6.29 7.47 9.32 y la media es de: 7.9
